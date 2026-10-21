@@ -1,0 +1,13 @@
+step by step github tutorial:
+https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/#heading-how-to-set-the-default-editor
+
+This project uses VS Code to edit.
+git init my-github-project
+git config --global core.editor "code --wait"
+git status
+git add .
+git commit
+git remote add origin https://github.com/Getit567/my-github-project.git
+git push -u origin main
+git pull origin main
+git add -f text.txt
